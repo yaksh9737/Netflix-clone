@@ -27,7 +27,7 @@ Email : yaksh9737@gmail.com
 Github: https://github.com/yaksh9737
 
 
-### **8. Usage**
+### **Usage**
 
 Explain how to use the application, including any specific commands or configurations.
 
