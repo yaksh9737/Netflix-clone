@@ -21,7 +21,7 @@ npm run build
 ```shell
 npm run start
 ```
-###Personal info
+### Personal info
 Name : Yaksh Devani
 Email : yaksh9737@gmail.com
 Github: https://github.com/yaksh9737
