@@ -44,7 +44,7 @@ const options = {
 	  Authorization: 'Bearer '+ENV_VARS.TMDB_API_KEY
 	}
   };
-  
+
   fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
