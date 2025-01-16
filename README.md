@@ -1,62 +1,101 @@
 <h1 align="center">MERN Netflix Clone 🎬</h1>
 
-### Setup .env file
+Netflix Clone is a MERN stack application inspired by Netflix, offering
+functionalities such as user authentication, movie browsing, and
+watchlist management.
 
-```bash
+## Installation
+
+Clone the repository and install dependencies for both backend and
+frontend.
+
+``` bash
+git clone https://github.com/yaksh9737/Netflix-clone.git
+cd Netflix-clone
+```
+
+### Backend Setup
+
+Navigate to the `backend` folder and install dependencies:
+
+``` bash
+cd backend
+npm install
+```
+
+Create a `.env` file in the backend directory with the following
+content:
+
+``` bash
 PORT=5000
 MONGO_URI=your_mongo_uri
 NODE_ENV=development
-JWT_SECRET=your_jwt_secre
+JWT_SECRET=your_jwt_secret
 TMDB_API_KEY=your_tmdb_api_key
 ```
 
-### Run this app locally
+Replace placeholders with your configurations: - `MONGO_URI`: MongoDB
+connection string - `JWT_SECRET`: JSON Web Token secret -
+`TMDB_API_KEY`: API key from [TMDB](https://www.themoviedb.org/)
 
-```shell
+Build and start the backend server:
+
+``` bash
 npm run build
+npm start
 ```
 
-### Start the app
+### Frontend Setup
 
-```shell
-npm run start
+Navigate to the `frontend` folder and install dependencies:
+
+``` bash
+cd ../frontend
+npm install
 ```
-### Personal info
-Name : Yaksh Devani
-Email : yaksh9737@gmail.com
-Github: https://github.com/yaksh9737
 
+Create a `.env` file in the frontend directory with the following
+content:
 
-### **Usage**
+``` bash
+NEXT_PUBLIC_API_URL=http://localhost:5000
+```
 
-Explain how to use the application, including any specific commands or configurations.
+Start the frontend server:
 
-```markdown
+``` bash
+npm run build
+npm start
+```
+
+The application should now be accessible at `http://localhost:3000`.
 
 ## Usage
 
-1. **Register an Account**
+1.  **Register and Log In**:
+    -   Create an account via the sign-up page.
+    -   Log in using the registered credentials.
+2.  **Browse Movies and Shows**:
+    -   View popular, top-rated, and upcoming movies and TV shows.
+    -   Use the search functionality to find specific content.
+3.  **Manage Your Watchlist**:
+    -   Add movies or shows to your watchlist by clicking "Add to
+        Watchlist."
+    -   Access your watchlist from the user profile.
+4.  **Watch Trailers**:
+    -   View details and trailers for selected movies or shows.
 
-   - Navigate to the Sign-Up page.
-   - Enter your email and create a password.
-   - Verify your email if email verification is implemented.
+## Contributing
 
-2. **Log In**
+Pull requests are welcome! For significant changes, please open an issue
+to discuss your ideas first. Ensure that tests are updated as necessary.
 
-   - Use your registered email and password to log in.
+## License
 
-3. **Browse Content**
+[MIT](https://choosealicense.com/licenses/mit/)
 
-   - Explore popular, top-rated, and upcoming movies and TV shows.
-   - Use the search bar to find specific titles.
+------------------------------------------------------------------------
 
-4. **Manage Watchlist**
-
-   - Click the "Add to Watchlist" button on any title to save it.
-   - Access your watchlist from the user profile.
-
-5. **Watch Trailers**
-
-   - Click on a movie or TV show to view its details and watch trailers.
+Happy Streaming! 🎥
 
 
